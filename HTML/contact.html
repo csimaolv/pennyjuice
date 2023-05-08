@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Us | Penny Juice | Healthy Juice for Healthy Kids</title>
+    <meta name="Keywords" content="Lifestyle, healthy, juice, childcare, daycare, preschool, nutrition, children, kids">
+    <meta name="author" content="Carissa Simao">
+    <meta name="viewport" content="width+device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../CSS/mystyle.css">
+    <style>
+        .contact_form {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        
+        textarea {
+            display: block;
+            flex-basis: 100%;
+        }
+        
+        input {
+            flex-basis: 47%;
+        }
+        
+        input[type=text], input[type=email], input[type=tel], textarea, select {
+            border: 2px solid #ff8008;
+            border-radius: 3px;
+            color: #433a3f;
+            padding: 10px;
+            margin: 10px 0;
+        }
+        
+        /* WebKit, Edge */
+        ::-webkit-input-placeholder {
+            font-family: "Montserrat", Tahoma, Arial, sans-serif;
+            color: #433a3f;
+        }
+        /* Firefox 4-18 */
+        :-moz-placeholder {
+            font-family: "Montserrat", Tahoma, Arial, sans-serif;
+            color: #433a3f;
+            opacity: 1;
+        }
+        /* Firefox 19+ */
+        ::-moz-placeholder {
+            font-family: "Montserrat", Tahoma, Arial, sans-serif;
+            color: #433a3f;
+            opacity: 1;
+        }
+        /* IE 10-11 */
+        :-ms-input-placeholder {
+            font-family: "Montserrat", Tahoma, Arial, sans-serif;
+            color: #433a3f;
+       }
+        /* Edge */
+        ::-ms-input-placeholder {
+            font-family: "Montserrat", Tahoma, Arial, sans-serif;
+            color: #433a3f;
+        }
+        /* MODERN BROWSER */
+        ::placeholder {
+            font-family: "Montserrat", Tahoma, Arial, sans-serif;
+            color: #433a3f;
+        }
+            
+        label {
+            text-indent: -9999px;
+            display: none;
+        }
+        
+        input[type=submit] {
+            flex-basis: auto;
+            padding: 5px;
+            font-size: 1.2em;
+            font-weight: 300;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="header">
+            <a href="../HTML/index.html" class="logo"><h1>Penny Juice</h1></a>
+            <div id="account-links" class="hmenu">
+                <ul>
+                    <li><a href="../HTML/signin.html">Sign In</a></li>
+                    <li><a href="../HTML/shop.html">My Cart</a></li>
+                </ul>
+            </div>
+            <div id="nav" class="hmenu">
+                <ul>
+                    <li><a href="../HTML/index.html">Home</a></li>
+                    <li><a href="../HTML/blog.html">Blog</a></li>
+                    <li><a href="../HTML/shop.html">Shop</a></li>
+                    <li><a href="../HTML/faq.html">FAQ</a></li>
+                    <li><a href="../HTML/about.html">About</a></li>
+                    <li class="thispage"><a href="../HTML/contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="content">
+            <div id="hero" class="heroimg contact">
+                <div id="pagetitle">Contact Us</div>
+            </div>
+            <div id="main">
+               <div class="double">
+                    <div>
+                        <h2>Penny Juice of America</h2>
+                    </div>
+                    <div class="contact_info">
+                        
+                        <div>    
+                            <p>915 40th Ave<br>
+                            Bettendorf, IA 52722<br>
+                            <a href="mailto:pennyjuice@hotmail.com">pennyjuice@hotmail.com</a></p>
+                        </div>
+                        <div>
+                            <p><strong>Phone:</strong> 563-386-1999<br>
+                            <strong>Mobile:</strong> 563-340-3661<br>
+                            <strong>Fax:</strong> 563-386-6200</p>
+                        </div>
+                    </div>
+                    <div class="map">
+                        <img src="../images/Map.jpg" width="500" height="500" alt="Map to Penny Juice of America">
+                    </div>
+               </div>
+               <div class="double">
+                  <h2>We look forward to hearing from you!</h2>
+                   <p>Have questions about our juice? Need help placing an order? Whatever your needs, we're happy to hear from you. Please drop us a line using the form below and we'll respond as soon as possible.</p>
+                    <form action="/action_page.php" class="contact_form">
+                        <label for="name">Contact Name</label>
+                        <input type="text" id="name" placeholder="Contact Name">
+                        <label for="company">Company</label>
+                        <input type="text" id="company" placeholder="Company">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" placeholder="Email Address">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" placeholder="Phone Number">
+                        <label for="subject">How can we help?</label>
+                        <textarea id="subject" placeholder="How can we help?"></textarea>
+                        <input type="submit" value="SUBMIT" class="button">
+                    </form>
+               </div>
+            </div>
+        </div>
+        <div id="footer">
+           <div id="social" class="hmenu">
+               <ul>
+                   <li class="fbicon"><a href="#">Facebook</a></li>
+                   <li class="twicon"><a href="#">Twitter</a></li>
+                   <li class="pinicon"><a href="#">Pinterest</a></li>
+                   <li class="yticon"><a href="#">YouTube</a></li>
+               </ul>
+           </div>
+            <div id="foot-nav" class="hmenu">
+                <ul>
+                    <li><a href="../HTML/index.html">Home</a></li>
+                    <li><a href="../HTML/blog.html">Blog</a></li>
+                    <li><a href="../HTML/shop.html">Shop</a></li>
+                    <li><a href="../HTML/faq.html">FAQ</a></li>
+                    <li><a href="../HTML/about.html">About</a></li>
+                    <li><a href="../HTML/contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <p>&copy; 2023 Copyright Penny Juice</p>
+            <div id="fineprint" class="hmenu">
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Do Not Share My Information</a></li>
+                    <li><a href="#">Conditions of Use</a></li>
+                    <li><a href="#">Notice and Take Down Policy</a></li>
+                    <li><a href="#">Website Accessibility Policy</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
